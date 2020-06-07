@@ -6,6 +6,8 @@ Prepared by: **Praveen**
 
 *Email: contact@prvn.info*
 
+View the [presentation here](https://bit.ly/30geDGc):
+
 ## Installation candidates ##
 
 Two types of files are available.
