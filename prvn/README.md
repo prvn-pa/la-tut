@@ -87,5 +87,5 @@ Here after the installation is pretty striaght forward.
 
 ## Video Demo ##
 
-[![Video Demo](https://j.gifs.com/mOznOp.gif)](https://www.youtube.com/watch?v=YOz-Cqfl89g)
+[![Video Demo](https://j.gifs.com/zv8E67.gif)](https://www.youtube.com/watch?v=YOz-Cqfl89g)
 
