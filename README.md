@@ -46,13 +46,30 @@ The workshop will cover the following titles:
 
 * Preamble & code
 * Sections
+* Formating the document
 * Error messages & debugging
 * Compiling: LaTeX vs PDFlatex
 * Turn ON & OFF: Pg Number, Section number etc.
 * Typing MATH
 
-### Day TWO: Tables, Figures and Bibliography (Sabarathinam)
+### Day TWO: Tables & Math (Jothi)
 
-### Day THREE: Beamer, TIKZ and Posters (Aravinthan)
+* Equations: Integrals, Matrices, Summation, Differention etc.
+* Tables & Figures
+* Bibliography
 
-### Day FOUR: Version control & Working with templates (Jothi & Praveen)
+### Day THREE: Documents (Sabarathinam)
+
+* Report, Article, Chapter, Thesis
+* Relevant packages
+
+### Day FOUR: Beamer, Resume and Posters (Aravinthan)
+
+* Basic beamer
+* Resume templates
+* Poster templates
+
+### Day FIVE: Version control (Praveen)
+
+* Version control
+* Overleaf
