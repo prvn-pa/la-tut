@@ -35,12 +35,11 @@ The workshop will cover the following titles:
 
 ## Detailed Work Plan
 
-### Day ZERO: Getting Ready (Pre-Recorded Class)
+### Day ZERO: Getting Ready  (Jothi & Praveen)
 
 * Installation using ISO file 
-  * Linux (Praveen); Windows (Jothi)
-* Preffered editors and PDF viewers (Praveen)
-* Working in Overleaf (Jothi)
+  * Linux (Praveen); Windows
+* Preffered editors and PDF viewers
 
 ### Day ONE: Basics (Suresh)
 
@@ -48,7 +47,7 @@ The workshop will cover the following titles:
 * Sections
 * Formating the document
 * Error messages & debugging
-* Compiling: LaTeX vs PDFlatex
+* Compiling using PDFlatex
 * Turn ON & OFF: Pg Number, Section number etc.
 * Typing MATH
 
