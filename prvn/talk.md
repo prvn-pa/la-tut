@@ -112,9 +112,9 @@ Here after the installation is pretty striaght forward.
 
 ---
 
-#### Video Demo
+### Video Demo ###
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YOz-Cqfl89g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Video Demo](https://j.gifs.com/zv8E67.gif)](https://www.youtube.com/watch?v=YOz-Cqfl89g)
 
 ---
 
