@@ -85,3 +85,7 @@ Here after the installation is pretty striaght forward.
 7. It would tale 10 - 15 mins depending on machine configuration.
 8. Once the installation finished type `latex --version` to verify the installation
 
+## Video Demo ##
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YOz-Cqfl89g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
