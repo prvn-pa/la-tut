@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{equation}
+  \dot{x} = \frac{1}{2}x^2 \nonumber
+\end{equation}
+
+%\end{document}
+\section{Using inline math - embed formulas in your text}
+This formula $f(x) = x^2$, $\sin(\omega t)$, $\Theta$, $\theta$  is an example.
+\\~\\
+superscript ($x^2$) and subscripts ($x_2$)
+\\~\\
+
+
+\section{No numbers in the equation}
+
+\begin{equation}
+  y = m x + c 
+\end{equation}  
+
+\begin{equation}
+    y = m x + c  \nonumber
+\end{equation}
+
+\begin{equation*}
+    y = m x + c 
+\end{equation*}
+
+\begin{eqnarray}
+    y = m x + c \\ 
+     ny+b = m x + c +d +e +f +g 
+\end{eqnarray}
+
+\begin{eqnarray}
+    y &=& m x + c \\ 
+     ny+b &=& m x + c +d +e +f +g 
+\end{eqnarray}
+
+\begin{eqnarray}
+ f(x) &= x^2+x_2\\
+  g(x) &= \frac{1}{x}\\
+  F(x) &= \int^a_b \frac{1}{3}x^3 \\
+  m(x) &=\frac{1}{\sqrt{x}}
+\end{eqnarray}  
+
+\begin{enumerate}
+\item You can next the list environments to your taste:
+\item next item here
+\item and the next is here
+\end{enumerate}
+
+
+\begin{itemize}
+\item with bullets
+\item[*] next item here
+\item[-] and the next is here
+\end{itemize}
+
+\begin{description}
+\item[Des-1] You can add descriptions here
+\item[Des-2] With out numbering and itemize
+\end{description}
+
+
+\end{document}
