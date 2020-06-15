@@ -1,0 +1,29 @@
+\frametitle{Table Creation: Examples}
+  For more professional looking tables use the booktabs package:
+E.g. it provides the commands \verb+\toprule, \midrule & \bottomrule.+
+\begin{columns}
+\begin{column}{.5\textwidth}
+\begin{small}
+\begin{verbatim}
+\begin{tabular}{c|c|c}
+\toprule
+label 1 & label 2 & label 3 \\
+\midrule
+cell 1 & cell 2 & cell 3 \\
+cell 4 & cell 5 & cell 6 \\
+\bottomrule
+\end{tabular}
+\end{verbatim}
+\end{small}
+\end{column}
+\begin{column}{.5\textwidth}
+\begin{tabular}{c|c|c}
+\toprule
+label 1 & label 2 & label 3 \\
+\midrule
+cell 1 & cell 2 & cell 3 \\
+cell 4 & cell 5 & cell 6 \\
+\bottomrule
+\end{tabular}
+    \end{column}
+  \end{columns}
