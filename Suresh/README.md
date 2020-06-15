@@ -1,8 +1,14 @@
 ### Latex Workshop
 ##### Lecture \# 1 : <font color="red">Basics of Latex</font>
-Suresh Kumarasamy <br>
+Dr. Suresh Kumarasamy <br>
 DS Kothari Postdoc Fellow <br>
 University of Delhi <br>
+
+### Directory Summary
+
+This README briefly discusses the history and importance of LaTeX.
+
+To Download example files please check [here](https://github.com/prvn-pa/la-tut/tree/master/Suresh/tutorials)
 
 
 ##### History behind <b>LaTeX</b>
