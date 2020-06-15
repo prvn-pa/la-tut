@@ -8,7 +8,7 @@ University of Delhi <br>
 
 This README briefly discusses the history and importance of LaTeX.
 
-To Download example files please check [here](https://github.com/prvn-pa/la-tut/tree/master/Suresh/tutorials)
+To Download example files please check [here](https://github.com/prvn-pa/la-tut/releases)
 
 
 ##### History behind <b>LaTeX</b>
