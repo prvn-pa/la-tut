@@ -1,0 +1,46 @@
+\documentclass{beamer}
+\usetheme{Stockton}
+%\usetheme{Warsaw}
+%\usetheme{Frankfurt}
+%\usetheme{Berlin}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{comment}
+\usepackage{blindtext}
+\usepackage{verbatim}
+\usepackage{setspace}
+\title{Creating Presentations}
+\author{D. Aravinthan}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+  \frametitle{Overlays - Pause}
+\begin{enumerate}
+\item Shown from first slide on.
+\pause
+\item Shown from second slide on.
+\pause
+\item Shown from third slide on.
+\pause
+\item Shown from fourth slide on.
+\end{enumerate}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+  \frametitle{Overlays - Specifications}
+\begin{itemize}
+\item<1-> Shown from first slide on.
+\item<2-> Shown from second slide on.
+\item<4> Shown only in forth slide.
+\item<3,5-> Shown in 3., 5. and all
+further slides.
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

@@ -12,7 +12,7 @@
 \headcommand {\beamer@framepages {11}{17}}
 \headcommand {\beamer@sectionpages {11}{17}}
 \headcommand {\beamer@subsectionpages {11}{17}}
-\headcommand {\sectionentry {3}{Sample Presentation}{18}{Sample Presentation}{0}}
+\headcommand {\sectionentry {3}{sample}{18}{sample}{0}}
 \headcommand {\beamer@subsectionpages {18}{17}}
 \headcommand {\slideentry {3}{1}{1}{18/18}{}{0}}
 \headcommand {\beamer@framepages {18}{18}}
@@ -109,13 +109,10 @@
 \headcommand {\beamer@subsectionpages {58}{58}}
 \headcommand {\slideentry {10}{3}{1}{59/59}{}{0}}
 \headcommand {\beamer@framepages {59}{59}}
-\headcommand {\beamer@subsectionpages {59}{59}}
-\headcommand {\slideentry {10}{4}{1}{60/60}{}{0}}
+\headcommand {\slideentry {10}{3}{2}{60/60}{}{0}}
 \headcommand {\beamer@framepages {60}{60}}
-\headcommand {\slideentry {10}{4}{2}{61/61}{}{0}}
-\headcommand {\beamer@framepages {61}{61}}
-\headcommand {\beamer@partpages {1}{61}}
-\headcommand {\beamer@subsectionpages {60}{61}}
-\headcommand {\beamer@sectionpages {57}{61}}
-\headcommand {\beamer@documentpages {61}}
-\headcommand {\gdef \inserttotalframenumber {30}}
+\headcommand {\beamer@partpages {1}{60}}
+\headcommand {\beamer@subsectionpages {59}{60}}
+\headcommand {\beamer@sectionpages {57}{60}}
+\headcommand {\beamer@documentpages {60}}
+\headcommand {\gdef \inserttotalframenumber {29}}

@@ -48,6 +48,7 @@
 \usepackage{blindtext}
 \usepackage{fancyvrb}
 \usepackage{tikz}
+\usepackage{comment}
 \newcommand\RBox[1]{%
   \tikz\node[draw,rounded corners,align=center,] {#1};%
 }  
@@ -139,7 +140,7 @@
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Sample Presentation}
+\section[Sample]{Sample Presentation}
 \subsection{}
 \begin{frame}{Sample Presentation}
 \begin{block}{Input Tex File}
@@ -418,10 +419,68 @@ just for inner and outer elements:
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{}
-\begin{frame}
+\begin{frame}[fragile=singleslide]
   \frametitle{Environments - Lists}
-  $\Longrightarrow$ Usual \LaTeX~ environments are available
-  \includegraphics[width=4.25in,height=2.25in]{figs/envi}
+  \vspace{-0.25cm}
+\begin{block}{Itemize - environment}
+\vspace{-0.5cm}
+\begin{columns}
+  \begin{column}{.5\textwidth}
+\begin{verbatim}
+  \begin{itemize}
+  \item first item
+  \item second item
+  \end{itemize}
+\end{verbatim}
+  \end{column}
+  \begin{column}{.5\textwidth}
+\begin{itemize}
+\item first item
+\item second item
+\end{itemize}
+  \end{column}
+\end{columns}
+\end{block}
+  \vspace{-0.25cm}
+\begin{block}{Enumerate - environment}
+\vspace{-0.5cm}
+\begin{columns}
+  \begin{column}{.5\textwidth}
+\begin{verbatim}
+  \begin{enumerate}
+  \item first item
+  \item second item
+  \end{enumerate}
+\end{verbatim}
+  \end{column}
+  \begin{column}{.5\textwidth}
+\begin{enumerate}
+\item first item
+\item second item
+\end{enumerate}
+\end{column}
+\end{columns}
+\end{block}
+  \vspace{-0.25cm}
+\begin{block}{Description - environment}
+\vspace{-0.5cm}
+\begin{columns}
+\begin{column}{.5\textwidth}
+\begin{verbatim}
+  \begin{description}
+  \item[Item1] description
+  \item[Item2] description
+  \end{description}
+\end{verbatim}
+  \end{column}
+  \begin{column}{.5\textwidth}
+  \begin{description}
+\item[Item1] description
+\item[Item2] description
+\end{description}
+ \end{column}
+ \end{columns}
+\end{block}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Overlays}
@@ -711,6 +770,7 @@ The center aligned text goes here.
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Tables}
+\begin{comment}
 \subsection{}
 \begin{frame}[fragile]
   \frametitle{Table Creation}
@@ -718,6 +778,7 @@ The center aligned text goes here.
   \includegraphics[scale=0.41]{figs/table}
   \end{flushleft}
 \end{frame}
+\end{comment}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{}
 \begin{frame}[fragile]

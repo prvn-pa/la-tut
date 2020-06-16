@@ -1,0 +1,113 @@
+\documentclass{beamer}
+\usetheme{Stockton}
+%\usetheme{Warsaw}
+%\usetheme{Frankfurt}
+%\usetheme{Berlin}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{comment}
+\usepackage{blindtext}
+\title{Creating Presentations}
+\author{D. Aravinthan}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Frame title}
+\blindtext
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Colored Boxes}
+\orangebox{Theorem Orange}{If you use the orangebox command, the box will be orange.}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Colored Boxes}
+\orangebox{Theorem Orange.}{If you use the orangebox command, the box will be orange.}
+
+\greenbox{Theorem Green.}{If you use the greenbox command, the box will be green.}
+
+\bluebox{Theorem Blue.}{If you use the bluebox command, the box will be blue.}
+
+\graybox{Theorem Gray.}{If you use the graybox command, the box will be gray.}
+
+\grassgreenbox{Theorem Grass Green.}{If you use the grassgreen box command, the box will be grass green.}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+  \frametitle{Colored Bullets}
+\begin{itemize}
+\item These are the ordinary
+\item bullets produced
+\item by the usual
+\item itemize command
+\end{itemize}
+\begin{orangeitemize}
+\item \{orangeitemize\}
+\item produces flat
+\item orange bullets
+\end{orangeitemize}
+\begin{grassgreenitemize}
+\item \{grassgreenitemize\}
+\item produces
+\item grass green bullets
+\end{grassgreenitemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+  \frametitle{Colored Bullets}
+\begin{block}{Normal Bullets}
+\begin{itemize}
+\item These are the ordinary
+\item bullets produced
+\item by the usual
+\item itemize command
+\end{itemize}
+\end{block}
+\orangebox{Orange Bulletes}{
+\begin{orangeitemize}
+\item \{orangeitemize\}
+\item produces flat
+\item orange bullets
+\end{orangeitemize}
+}
+\grassgreenbox{Green Bulletes}{
+\begin{grassgreenitemize}
+\item \{grassgreenitemize\}
+\item produces
+\item grass green bullets
+\end{grassgreenitemize}
+}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+  \frametitle{Environments - Lists}
+\begin{block}{Itemize - environment}
+\begin{itemize}
+\item first item
+\item second item
+\end{itemize}
+\end{block}
+\begin{block}{Enumerate - environment}
+\begin{enumerate}
+\item first item
+\item second item
+\end{enumerate}
+\end{block}
+\begin{block}{Description - environment}
+\begin{description}
+\item[Item1] description
+\item[Item2] description
+\end{description}
+\end{block}
+\end{frame}
+\begin{comment}
+\end{comment}
+\end{document}

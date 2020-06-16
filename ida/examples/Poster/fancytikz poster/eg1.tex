@@ -1,0 +1,32 @@
+\documentclass{a0poster}
+\usepackage{fancytikzposter} % here most of the things are defined
+\usepackage{blindtext}
+\usepackage{setspace}
+\usetemplate{4}
+\usepackage[margin=\margin cm, paperwidth=84.1cm, paperheight=118.9cm]{geometry}
+%\usepackage[margin=\margin cm, paperwidth=59.4cm, paperheight=84.0cm]{geometry}
+\title{Poster Title}
+\author{D. Aravinthan$^*$\\ Guest Faculty, Department of Physics\\
+Central University of Tamilnadu, Thiruvarur - 610 015\\
+  \texttt{d.aravinthan@gmail.com}
+}
+\begin{document}
+\AddToShipoutPicture{\BackgroundPicture}
+\noindent
+\begin{tikzpicture}
+\initializesizeandshifts
+\titleblock{100}{1.25}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Block%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\blocknode{Introduction}{
+\large
+\blindtext
+}
+\startsecondcolumn
+\blocknode{Block Title 2}{Block Content 2}
+\vspace{1cm}
+\plainnode[0]{($(currenty)+(1,1)$)}{35}{$^*$ For Correspondence:}{
+{\large \bf \begin{center} Web: www.idaravinthan.info
+ \end{center}
+}}
+\end{tikzpicture}
+\end{document}
