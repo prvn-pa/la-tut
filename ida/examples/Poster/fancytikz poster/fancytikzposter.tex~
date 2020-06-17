@@ -112,7 +112,7 @@
 \title{Scientific Poster with TikZ}
 \author{Dr. D. Aravinthan\\
  Guest Faculty, Department of Physics\\
-Central University of Tamilnadu, Tiruvarur - 610 015\\
+Central University of Tamilnadu, Thiruvarur - 610 015\\
   \texttt{d.aravinthan@gmail.com}
 }
 
@@ -500,5 +500,4 @@ Central University of Tamilnadu, Tiruvarur - 610 015\\
 \end{tikzpicture}
 
 \end{document}
-
 

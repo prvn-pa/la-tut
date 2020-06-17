@@ -8,7 +8,7 @@
 %\usecolortheme{albatross}
 %\usecolortheme{rose}
 %\usetheme{Berlin}
-%\hypersetup{pdfpagemode=FullScreen}
+\hypersetup{pdfpagemode=FullScreen}
 \definecolor{Red}{rgb}{1,0,0}
 \definecolor{Blue}{rgb}{0,0,1}
 \definecolor{Green}{rgb}{0,1,0}
@@ -69,7 +69,7 @@
             Guest Faculty\\
             Department of Physics\\
             Central University of Tamilnadu\\
-		Tiruvarur - 610 015
+		Thiruvarur - 610 015
             \end{footnotesize}\\
 		     \vspace{1cm}
 		     \begin{columns}
@@ -118,7 +118,7 @@
 \begin{small}
 \textbf{Advantages:}
 \begin{itemize}
-  \item Standard \LaTeX~ commands work for Beamer: you can write basic \LaTeX,~ you can easily make a Beamer presentation
+  \item Standard \LaTeX~ commands work for Beamer: if you can write a basic \LaTeX,~ you can easily make a Beamer presentation
 \pause
 \item Final output is usually a {\color{red}pdf file:\\
  Compatible with all operating systems (MAC, Unix/Linux, Windows);}
@@ -185,11 +185,11 @@ of the {\scshape Beamer} class. Thereby, {\scshape Beamer }classifies five Categ
 \vspace{0.67cm}
 \textbf{Categories of Themes:}
 \begin{enumerate}
-  \item \textbf{\color{green}Presentation Themes:} slide template
-  \item \textbf{\color{green} Color Themes$^*$:} color scheme of slide template
-  \item \textbf{\color{green} \color{green} Font Themes$^*$:} defines the fonts
-  \item \textbf{\color{green} Inner Themes$^*$:} defines inside of slide like of bullets, boxes, etc.
-  \item \textbf{\color{green} Outer Themes$^*$:} defines outside of slide like head- and footlines
+  \item \textbf{\color{red}Presentation Themes:} slide template
+  \item \textbf{\color{red} Color Themes$^*$:} color scheme of slide template
+  \item \textbf{\color{red}  Font Themes$^*$:} defines the fonts
+  \item \textbf{\color{red} Inner Themes$^*$:} defines inside of slide like of bullets, boxes, etc.
+  \item \textbf{\color{red} Outer Themes$^*$:} defines outside of slide like head- and footlines
 \end{enumerate}
 ($^*$ are optional, if you don’t like the default settings of Presentation themes)
   \end{small}
@@ -279,7 +279,7 @@ Rochester\\
   \end{column}
 \end{columns}
   \begin{small}
-  \textbf{\color{green} Note:} For getting Stockton theme style file and sample latex file visit:
+  \textbf{\color{red} Note:} For getting Stockton theme style file and sample latex file visit:
   \url{http://www1.pacific.edu/~smerz/Pacific_Beamer_Theme.html} 
   \end{small} 
   \end{frame}
@@ -321,7 +321,7 @@ just for inner and outer elements:
   \item \textbf{ outer:} whale, seahorse, dolphin
   \end{itemize}
   \end{block}
-  \textbf{\color{green} Note:} Theme-Matrix presents various theme and color combinations:
+  \textbf{\color{red} Note:} Theme-Matrix presents various theme and color combinations:
 \url{http://www.hartwork.org/beamer-theme-matrix/}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -770,16 +770,6 @@ The center aligned text goes here.
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Tables}
-\begin{comment}
-\subsection{}
-\begin{frame}[fragile]
-  \frametitle{Table Creation}
-  \begin{flushleft}
-  \includegraphics[scale=0.41]{figs/table}
-  \end{flushleft}
-\end{frame}
-\end{comment}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{}
 \begin{frame}[fragile]
   \frametitle{Table Creation: Examples}
@@ -843,8 +833,37 @@ cell 4 & cell 5 & cell 6 \\
     \end{column}
   \end{columns}
 \end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Posters}
+\subsection{}
+\begin{frame}
+\frametitle{Poster Creation}
+\begin{block}{Important Poster Types}
+\begin{enumerate}
+  \item Beamer Poster
+  \pause
+  \item Fancy Tikz Poster
+  \pause
+  \item A0 Poster
+\end{enumerate}
+\end{block}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile=singleslide]
+  \frametitle{Beamer Poster}
+\begin{center}
+\includegraphics[scale=0.06]{figs/example}
+\end{center}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile=singleslide]
+  \frametitle{Fancy Tikz Poster}
+\begin{center}
+\includegraphics[scale=0.06]{figs/fancytikzposter}
+\end{center}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \fi
 \subsection{}
 \begin{frame}
@@ -861,19 +880,16 @@ Beamer User Guide:\\
 \LaTeX~ - beamer Course:
 \url{http://impact.byu.edu/computation_seminar/latex/beamer-script.pdf}
 \bibitem{beamer4}
-{\color{red}For more model \LaTeX~ Files and Ebooks:
-\url{https://bduportal.wordpress.com/latex/}}
+{\color{red}For more \LaTeX~ Files/ Templates and Ebooks:
+\url{https://e2a.co.in/latex-resources}}
 \end{thebibliography}
 \end{scriptsize}
 \end{block}
-
 \end{frame}
-\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{figs/thank-you.jpg}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\iffalse
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{figs/Aravinthan_details.jpeg}}
 \begin{frame}[plain]
-\vspace{4.35cm}
-\begin{center}
-\textbf{\color{green} {\Large www.idaravinthan.info}}
-\end{center}
 \end{frame}
 \end{document}
 \subsection{}
@@ -886,6 +902,18 @@ Beamer User Guide:\\
 \begin{flushright}
 Website: https://idaravinthan.info/
 \end{flushright}
+\end{frame}
+\fi
+\begin{frame}[plain]
+\textbf{\begin{center}
+{\Huge Thank You!}
+\end{center}}
+\vfill
+\begin{figure}
+  \begin{center}
+ \includegraphics[]{figs/Aravinthan_details1}
+  \end{center}
+\end{figure}
 \end{frame}
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

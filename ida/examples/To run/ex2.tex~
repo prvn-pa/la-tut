@@ -21,7 +21,6 @@
 \frametitle{Frame title}
 \blindtext
 \end{frame}
-\begin{comment}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
 \frametitle{Colored Boxes}
@@ -109,5 +108,6 @@
 \end{description}
 \end{block}
 \end{frame}
+\begin{comment}
 \end{comment}
 \end{document}
