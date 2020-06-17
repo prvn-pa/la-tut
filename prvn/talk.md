@@ -7,7 +7,7 @@ paginate: true
 LaTeX
 ===
 
-![h:250](setup.jpg)
+![h:250](img/setup.jpg)
 
 #### An Installation guide to LaTeX Environment
 
@@ -95,13 +95,13 @@ Here after the installation is pretty striaght forward.
 
 ---
 
-![](tut-1.png)
+![](img/tut-1.png)
 
 4. Enter `O` as the command
 
 ---
 
-![](tut-2.png)
+![](img/tut-2.png)
 
 ---
 
