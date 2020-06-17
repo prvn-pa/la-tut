@@ -35,11 +35,11 @@ Version Control and Cloud Solutions
 
 ## What you have learned so far? ##
 
-1. Installation
-2. Basic LaTeX document
-3. Tables, figures and math
-4. Article, thesis and books
-5. Slide decks and posters
+* Installation
+* Basic LaTeX document
+* Tables, figures and math
+* Article, thesis and books
+* Slide decks and posters
 
 ---
 
