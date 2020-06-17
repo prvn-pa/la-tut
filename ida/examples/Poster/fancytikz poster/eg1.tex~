@@ -4,10 +4,9 @@
 \usepackage{setspace}
 \usetemplate{4}
 \usepackage[margin=\margin cm, paperwidth=84.1cm, paperheight=118.9cm]{geometry}
-%\usepackage[margin=\margin cm, paperwidth=59.4cm, paperheight=84.0cm]{geometry}
 \title{Poster Title}
 \author{D. Aravinthan$^*$\\ Guest Faculty, Department of Physics\\
-Central University of Tamilnadu, Tiruvarur - 610 015\\
+Central University of Tamilnadu, Thiruvarur - 610 015\\
   \texttt{d.aravinthan@gmail.com}
 }
 \begin{document}
