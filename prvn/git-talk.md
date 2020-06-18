@@ -2,20 +2,20 @@
 marp: true
 theme: default
 paginate: true
+footer: JMC Organized *Online LaTeX Workshop*: Day 05 -- **Version Control and Cloud Solutions**
+backgroundColor: #C2FFD8
 ---
-
-Version Control and Cloud Solutions
+![bg opacity](img/vc.png)
+Never Loose a Thing! Versioning and Collaborating: Git, Overleaf & More...
 ===
 
-![h:350 w:350](img/vc.jpg)
+### Praveen
+##### ✉:`contact@prvn.info`
 
-#### Never Loose a Thing! Versioning and Collaborating: Git, Overleaf & More... ####
-
-##### by Praveen ####
-
-[Email: contact@prvn.info](contact@prvn.info)
+View this slide deck here: **https://bit.ly/3ed6shV**
 
 ---
+![bg opacity](img/gradient.jpg)
 
 ## What are we going to discuss? ##
 
@@ -26,12 +26,14 @@ Version Control and Cloud Solutions
 5. Working in Cloud
 
 ---
+![bg opacity](img/gradient.jpg)
 
 ## Need Assistance? ##
 
 ![h:350](img/support.png)
 
 ---
+![bg opacity](img/gradient.jpg)
 
 ## What you have learned so far? ##
 
@@ -42,6 +44,7 @@ Version Control and Cloud Solutions
 * Slide decks and posters
 
 ---
+![bg opacity](img/gradient.jpg)
 
 ## Versions
 
@@ -57,6 +60,7 @@ $ pdflatex diff.tex
 ![w:800](img/diff.png)
 
 ---
+![bg opacity](img/gradient.jpg)
 
 ## What is version control? ##
 
@@ -65,6 +69,7 @@ $ pdflatex diff.tex
 Photo credit: http://smutch.github.io/VersionControlTutorial/
 
 ---
+![bg opacity](img/gradient.jpg)
 
 ## Git ##
 
@@ -75,12 +80,14 @@ Photo credit: http://smutch.github.io/VersionControlTutorial/
 * For example, you create a web form and add a commit, and you decide to edit that form tomorrow, the new change can be considered a new version of your original work.
 
 ---
+![bg opacity](img/gradient.jpg)
 
 ## Here's an example! ##
 
 ![h:350](img/git.png)
 
 ---
+![bg opacity](img/gradient.jpg)
 
 ## Github ##
 
@@ -90,12 +97,14 @@ Photo credit: http://smutch.github.io/VersionControlTutorial/
 * After working on your project or a part of it on Git (offline), you can push it to your repository on Github.
 
 ---
+![bg opacity](img/gradient.jpg)
 
 ## Here's an another example! ##
 
 ![h:500](img/github.png)
 
 ---
+![bg opacity](img/gradient.jpg)
 
 # So how to start with `git`? ##
 
@@ -109,6 +118,7 @@ Photo credit: http://smutch.github.io/VersionControlTutorial/
 * Push your local changes to server
 
 ---
+![bg opacity](img/gradient.jpg)
 
 ## Git Installation ##
 
@@ -124,10 +134,12 @@ $ git config --global user.name "Your Name"
 $ git config --global user.email "your@mail.id"
 ```
 ---
+![bg opacity](img/gradient.jpg)
 
 # Demo: Working with files #
 
 ---
+![bg opacity](img/gradient.jpg)
 
 ## Diff with Git ##
 
@@ -142,9 +154,10 @@ $ nano git-test.tex #Modify text and commit again
 $ git latexdiff HEAD~1 --main git-test.tex
 ```
 ---
+![bg opacity](img/gradient.jpg)
 
 # Overleaf: Cloud Solution #
 
 ---
 
-![w:1000](img/thanks.jpg)
+![bg](img/thanks.jpg)
