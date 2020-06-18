@@ -82,21 +82,6 @@ Photo credit: http://smutch.github.io/VersionControlTutorial/
 
 ---
 
-## Diff with Git ##
-
-Install `git-latexdiff` from [here](https://gitlab.com/git-latexdiff/git-latexdiff)
-
-```
-$ nano git-test.tex #Include text
-$ git init
-$ git add git-test.tex
-$ git commit -m 'version 1'
-$ nano git-test.tex #Modify text and commit again
-$ git latexdiff HEAD~1 --main git-test.tex
-```
-
----
-
 ## Github ##
 
 * Github is a website for hosting your repositories. 
@@ -138,11 +123,24 @@ Once you installed `git` define global username and mail ID from terminal or com
 $ git config --global user.name "Your Name"   
 $ git config --global user.email "your@mail.id"
 ```
-
 ---
 
 # Demo: Working with files #
 
+---
+
+## Diff with Git ##
+
+Install `git-latexdiff` from [here](https://gitlab.com/git-latexdiff/git-latexdiff)
+
+```
+$ nano git-test.tex #Include text
+$ git init
+$ git add git-test.tex
+$ git commit -m 'version 1'
+$ nano git-test.tex #Modify text and commit again
+$ git latexdiff HEAD~1 --main git-test.tex
+```
 ---
 
 # Overleaf: Cloud Solution #
