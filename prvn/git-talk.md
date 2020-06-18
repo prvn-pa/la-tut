@@ -37,18 +37,18 @@ View this slide deck here: **https://bit.ly/3ed6shV**
 
 ## What you have learned so far? ##
 
-* Installation
-* Basic LaTeX document
-* Tables, figures and math
-* Article, thesis and books
-* Slide decks and posters
+- Installation
+- Basic LaTeX document
+- Tables, figures and math
+- Article, thesis and books
+- Slide decks and posters
 
 ---
 ![bg opacity](img/gradient.jpg)
 
 ## Versions
 
-* `latexdiff`
+- `latexdiff` get the difference
 
 ### Comment summary
 ```
@@ -109,26 +109,23 @@ Photo credit: http://smutch.github.io/VersionControlTutorial/
 # So how to start with `git`? ##
 
 ## Step: 01
-* Install `git` in your local machine
-* Configure it
+- Install `git` in your local machine
+- Configure it
 
 ## Step: 02
-* Create a github account
-* Create a github repository
-* Push your local changes to server
+- Create a github account
+- Create a github repository
+- Push your local changes to server
 
 ---
 ![bg opacity](img/gradient.jpg)
 
 ## Git Installation ##
 
-In Ubuntu, install git by the command `sudo apt install git`
-
-In windows, download the installer from [here](https://gitforwindows.org/). Run it with administrator privileges. Accept the default values and choose Windows Command Prompt for accessing git.
-
-Verify the installation by `git --version`
-
-Once you installed `git` define global username and mail ID from terminal or command prompt.
+- In Ubuntu, install git by the command `sudo apt install git`
+- In windows, download the installer from [here](https://gitforwindows.org/). Run it with administrator privileges. Accept the default values and choose Windows Command Prompt for accessing git.
+- Verify the installation by `git --version`
+- Once you installed `git` define global username and mail ID from terminal or command prompt.
 ```
 $ git config --global user.name "Your Name"   
 $ git config --global user.email "your@mail.id"
