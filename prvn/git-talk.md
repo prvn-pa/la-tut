@@ -43,6 +43,21 @@ Version Control and Cloud Solutions
 
 ---
 
+## Versions
+
+* `latexdiff`
+
+### Comment summary
+```
+$ latexdiff --version
+$ latexdiff version-01.tex version-02.tex > diff.tex
+$ pdflatex diff.tex
+```
+
+![w:800](img/diff.png)
+
+---
+
 ## What is version control? ##
 
 ![](https://smutch.github.io/VersionControlTutorial/_images/vc-xkcd.jpg)
@@ -64,6 +79,21 @@ Photo credit: http://smutch.github.io/VersionControlTutorial/
 ## Here's an example! ##
 
 ![h:350](img/git.png)
+
+---
+
+## Diff with Git ##
+
+Install `git-latexdiff` from [here](https://gitlab.com/git-latexdiff/git-latexdiff)
+
+```
+$ nano git-test.tex #Include text
+$ git init
+$ git add git-test.tex
+$ git commit -m 'version 1'
+$ nano git-test.tex #Modify text and commit again
+$ git latexdiff HEAD~1 --main git-test.tex
+```
 
 ---
 
@@ -104,9 +134,10 @@ In windows, download the installer from [here](https://gitforwindows.org/). Run 
 Verify the installation by `git --version`
 
 Once you installed `git` define global username and mail ID from terminal or command prompt.
-
-> git config --global user.name "Your Name"   
-> git config --global user.email "your@mail.id"
+```
+$ git config --global user.name "Your Name"   
+$ git config --global user.email "your@mail.id"
+```
 
 ---
 
